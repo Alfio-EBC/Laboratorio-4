@@ -6,6 +6,7 @@ const Character = () => {
     const [expandedCharacter, setExpandedCharacter] = useState(null);
     const [loading, setLoading] = useState(true);
 
+    
     useEffect(() => {
         fetch("https://rickandmortyapi.com/api/character")
             .then(response => response.json())

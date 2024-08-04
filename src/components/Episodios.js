@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+
 const Species = () => {
   const [characters, setCharacters] = useState([]);
   const [episodes, setEpisodes] = useState([]);

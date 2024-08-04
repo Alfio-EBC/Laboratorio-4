@@ -3,6 +3,7 @@ function apiCons(dispatch, setSt) {
     return async function getData(e) {
         e.preventDefault();
 
+        
         try {
             const response = await fetch('https://rickandmortyapi.com/api/character');
             const data = await response.json();

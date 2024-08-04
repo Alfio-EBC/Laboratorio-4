@@ -8,6 +8,7 @@ const iAx = axios.create({
     }
 });
 
+
 // INTERCEPTOR PARA SOLICITUDES
 iAx.interceptors.request.use(
     config => {
